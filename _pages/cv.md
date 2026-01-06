@@ -9,56 +9,45 @@ redirect_from:
 
 {% include base_path %}
 
+Employment
+======
+* Industrial researcher at <a href="https://www.partisia.com/">Partisia</a>, August 2024-Present
+* Postdoc researcher at <a href="https://users-cs.au.dk/orlandi/cryptogroup/">Aarhus University</a>, April 2024-July 2024
+* Research Scientist at <a href="https://www.concordium.com/">Concordium</a>, June 2022-March 2024
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, Aarhus University, 2022
+	* Thesis: Cryptography for Scalability and Identity in Blockchain Applications <a href="/thesis.pdf">[PDF]</a>, Advisor: Jesper Buus Nielsen, Co-advisors: Matteo Campanelli and Ivan Damgård
+* M.S. in Computer Science, Sharif University, 2014
+	* Thesis: Public-Key Cryptosystems Resilient to Hard-to-Invert Leakage, Advisor: Shahram Khazaei
+* B.S. in Mathematics, K.N.Toosi University, 2012
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+List of my publications are available at <a href="https://dblp.org/pid/251/1432.html">DBLP</a> and <a href="https://scholar.google.com/citations?user=5KhiILoAAAAJ&hl=en">Google Scholar</a>.
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
+ <ul class="teaching-list">
+  {% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+  {% endfor %}
+</ul>
+ 
+Program Committees
 ======
-* Currently signed in to 43 different slack teams
+* ACNS: 2025
+
+External Reviewer
+======
+* CRYPTO: 2026, 2025, 2023, 2022, 2021, 2020
+* EUROCRYPT: 2025, 2022, 2021
+* ASIACRYPT: 2023
+* TCC: 2021
+* FC: 2022, 2018
+* PKC: 2019
+  

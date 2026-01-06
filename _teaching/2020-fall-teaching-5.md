@@ -1,20 +1,13 @@
 ---
-title: "Teaching experience 1"
+title: "Cryptology, Fall 2020"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
+link: "https://kursuskatalog.au.dk/en/course/100511/Cryptology"
 venue: "University 1, Department"
-date: 2014-01-01
+date: 1996-09-01
 location: "City, Country"
+citation: 'Taught by Ivan Damgård, Aarhus University'
+
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
