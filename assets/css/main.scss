@@ -41,3 +41,25 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+@media screen and (min-width: $sidebar-screen-min-width) {
+  .sidebar {
+    position: relative;     /* disable fixed */
+	overflow: visible;      /* no internal scrolling */
+	top: -55px;           /* cancel the body padding */
+  }
+}
+
+@media (min-width: 57.8125em) {
+    .sidebar {
+        width: 18%;              /* changed from 15.25% */
+    }
+
+    .page {
+        width: 80%;              /* changed from 88.05% */
+        float: right;
+        margin-right: 0;
+        padding-left: 2%;        /* adjust to match new sidebar margin */
+        padding-right: 10%;        /* optional, clean up extra space */
+    }
+}
